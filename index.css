@@ -1,0 +1,131 @@
+body {
+    background-color: rgb(16, 18, 25);
+    color: rgb(185, 205, 218);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;  
+}
+
+.home {
+    padding: 200px 0;
+}
+
+h1{
+    font-size: 54px;
+}
+.button-st {
+  background-color: rgb(253, 249, 0);
+  border-radius: 12px;
+  color: rgb(16, 18, 25);
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 20%;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 32px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-st:not(:disabled):hover,
+.button-st:not(:disabled):focus {
+  outline: 0;
+  background: hsl(59, 100%, 74%);
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-st:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+.button-st-min {
+    background-color: rgb(253, 249, 0);
+    border-radius: 12px;
+    color: rgb(16, 18, 25);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-align: center;
+    transition: 200ms;
+    width: 8%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 32px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 15px;
+}
+
+.button-st-min:not(:disabled):hover,
+.button-st-min:not(:disabled):focus {
+    outline: 0;
+    background: hsl(59, 100%, 74%);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+  
+.button-st-min:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+input {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+    font-weight: 500;
+    font-size: .8vw;
+    color: #fff;
+    background-color: rgb(28,28,30);
+    box-shadow: 0 0 .4vw rgba(0,0,0,0.5), 0 0 0 .15vw transparent;
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    max-width: 190px;
+    transition: .4s;
+    margin: 3px;
+}
+  
+input:hover {
+    box-shadow: 0 0 0 .15vw rgba(135, 207, 235, 0.186);
+}
+  
+input:focus {
+    box-shadow: 0 0 0 .15vw skyblue;
+}
+.button-ver {
+    background-color: rgb(23, 87, 23);
+    border-radius: 12px;
+    color: rgb(16, 18, 25);
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: 200ms;
+    width: 10%;
+    box-sizing: border-box;
+    border: 0;
+    font-size: 32px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 15px;
+}
+
+.button-ver:not(:disabled):hover,
+.button-ver:not(:disabled):focus {
+    outline: 0;
+    background: hsl(128, 84%, 30%);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+  
+.button-ver:disabled {
+    filter: saturate(0.2) opacity(0.5);
+    -webkit-filter: saturate(0.2) opacity(0.5);
+    cursor: not-allowed;
+}
+#quest {
+    font-size: 42px;
+}
