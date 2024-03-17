@@ -6,25 +6,25 @@ body {
 }
 
 .home {
-    padding: 200px 0;
+    padding: 12%;
 }
 
 h1{
-    font-size: 54px;
+    font-size: 6%;
 }
 .button-st {
   background-color: rgb(253, 249, 0);
-  border-radius: 12px;
+  border-radius: 3%;
   color: rgb(16, 18, 25);
   cursor: pointer;
   font-weight: bold;
-  padding: 10px 15px;
+  padding: 2% 3%;
   text-align: center;
   transition: 200ms;
   width: 20%;
   box-sizing: border-box;
   border: 0;
-  font-size: 32px;
+  font-size: 4%;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -44,28 +44,28 @@ h1{
 }
 .button-st-min {
     background-color: rgb(253, 249, 0);
-    border-radius: 12px;
+    border-radius: 2%;
     color: rgb(16, 18, 25);
     cursor: pointer;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 2% 3%;
     text-align: center;
     transition: 200ms;
     width: 8%;
     box-sizing: border-box;
     border: 0;
-    font-size: 32px;
+    font-size: 4%;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin: 15px;
+    margin: 5%;
 }
 
 .button-st-min:not(:disabled):hover,
 .button-st-min:not(:disabled):focus {
     outline: 0;
     background: hsl(59, 100%, 74%);
-    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+    box-shadow: 0 0 0 1% rgba(0,0,0,.2), 0 2% 3% 0 rgba(0,0,0,.15);
 }
   
 .button-st-min:disabled {
@@ -84,9 +84,9 @@ input {
     border: none;
     outline: none;
     padding: 0.4vw;
-    max-width: 190px;
+    max-width: 14%;
     transition: .4s;
-    margin: 3px;
+    margin: 1%;
 }
   
 input:hover {
@@ -98,27 +98,27 @@ input:focus {
 }
 .button-ver {
     background-color: rgb(23, 87, 23);
-    border-radius: 12px;
+    border-radius: 3%;
     color: rgb(16, 18, 25);
     cursor: pointer;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 2% 4%;
     transition: 200ms;
     width: 10%;
     box-sizing: border-box;
     border: 0;
-    font-size: 32px;
+    font-size: 5%;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    margin: 15px;
+    margin: 4%;
 }
 
 .button-ver:not(:disabled):hover,
 .button-ver:not(:disabled):focus {
     outline: 0;
     background: hsl(128, 84%, 30%);
-    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+    box-shadow: 0 0 0 1% rgba(0,0,0,.2), 0 2% 3% 0 rgba(0,0,0,.15);
 }
   
 .button-ver:disabled {
@@ -127,5 +127,5 @@ input:focus {
     cursor: not-allowed;
 }
 #quest {
-    font-size: 42px;
+    font-size: 6%;
 }
