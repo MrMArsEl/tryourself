@@ -10,7 +10,7 @@ body {
 }
 
 h1{
-    font-size: 6%;
+    font-size: 20%;
 }
 .button-st {
   background-color: rgb(253, 249, 0);
@@ -24,7 +24,7 @@ h1{
   width: 20%;
   box-sizing: border-box;
   border: 0;
-  font-size: 8%;
+  font-size: 10%;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -54,7 +54,7 @@ h1{
     width: 8%;
     box-sizing: border-box;
     border: 0;
-    font-size: 4%;
+    font-size: 10%;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -107,7 +107,7 @@ input:focus {
     width: 10%;
     box-sizing: border-box;
     border: 0;
-    font-size: 5%;
+    font-size: 10%;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -127,5 +127,5 @@ input:focus {
     cursor: not-allowed;
 }
 #quest {
-    font-size: 6%;
+    font-size: 20%;
 }
