@@ -3,41 +3,69 @@ body {
             margin: 0;
                 padding: 0;
                     background-color: #f4f4f4;
-                    }
+                        color: #333;
+                        }
 
-                    header {
-                        background-color: #333;
-                            color: white;
-                                padding: 15px;
-                                    text-align: center;
-                                    }
+                        header {
+                            background-color: #0066cc;
+                                color: white;
+                                    padding: 15px;
+                                        text-align: center;
+                                        }
 
-                                    header nav ul {
-                                        list-style: none;
-                                            padding: 0;
-                                            }
+                                        header nav ul {
+                                            list-style: none;
+                                                padding: 0;
+                                                }
 
-                                            header nav ul li {
-                                                display: inline;
-                                                    margin: 0 15px;
-                                                    }
+                                                header nav ul li {
+                                                    display: inline;
+                                                        margin: 0 15px;
+                                                        }
 
-                                                    header nav ul li a {
-                                                        color: white;
-                                                            text-decoration: none;
-                                                            }
+                                                        header nav ul li a {
+                                                            color: white;
+                                                                text-decoration: none;
+                                                                    font-weight: bold;
+                                                                    }
 
-                                                            section {
-                                                                margin: 20px;
-                                                                    padding: 20px;
-                                                                        background-color: white;
-                                                                            border-radius: 8px;
-                                                                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                                                                                }
+                                                                    h2 {
+                                                                        color: #0066cc;
+                                                                        }
 
-                                                                                footer {
-                                                                                    text-align: center;
-                                                                                        padding: 10px;
-                                                                                            background-color: #333;
-                                                                                                color: white;
-                                                                                                }
+                                                                        section {
+                                                                            margin: 20px;
+                                                                                padding: 20px;
+                                                                                    background-color: white;
+                                                                                        border-radius: 8px;
+                                                                                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                                                                                            }
+
+                                                                                            section img {
+                                                                                                width: 100%;
+                                                                                                    max-width: 800px;
+                                                                                                        height: auto;
+                                                                                                            margin-top: 15px;
+                                                                                                                border-radius: 8px;
+                                                                                                                }
+
+                                                                                                                footer {
+                                                                                                                    text-align: center;
+                                                                                                                        padding: 10px;
+                                                                                                                            background-color: #0066cc;
+                                                                                                                                color: white;
+                                                                                                                                }
+
+                                                                                                                                ul {
+                                                                                                                                    list-style: none;
+                                                                                                                                        padding-left: 0;
+                                                                                                                                        }
+
+                                                                                                                                        ul li {
+                                                                                                                                            padding: 5px 0;
+                                                                                                                                            }
+
+                                                                                                                                            strong {
+                                                                                                                                                color: #ff5733;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    }
